@@ -40,6 +40,8 @@ After enabling the User Profile feature:
 2. Add your attribute to the profile.
 3. Add the validator named `unique-attribute`.
 
+ docker run --rm -p 10.20.54.11:8081:80 -v /etc/element-web/config.json:/app/config.json vectorim/element-web
+
 Once these steps are completed, your Keycloak instance will be configured to validate unique attributes in user profiles, using the Unique Attribute Validator Provider.
 
 ## Support
